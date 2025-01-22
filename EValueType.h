@@ -1,5 +1,6 @@
 #pragma once
 
-enum ValueType {
+enum ValueType 
+{
 	Monetary, Data
 };

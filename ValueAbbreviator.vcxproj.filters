@@ -29,5 +29,8 @@
     <ClInclude Include="EValueType.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="E_UI_Phases.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

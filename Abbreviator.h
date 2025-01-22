@@ -2,6 +2,8 @@
 
 #include "EValueType.h"
 #include <iostream>
+#include <string>
+#include <cmath>
 
 using namespace std;
 
@@ -17,7 +19,7 @@ public:
 	ValueType chosenVal = Monetary;
 
 	int ChooseValueType();
-	void WaitForValue(bool type);
+	int InputValueToAbbreviate();
 	string AbbreviateValue(int val);
 
 };

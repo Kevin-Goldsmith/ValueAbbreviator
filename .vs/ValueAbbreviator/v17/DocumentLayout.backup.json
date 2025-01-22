@@ -7,12 +7,16 @@
       "RelativeMoniker": "D:0:0:{2F670015-4451-45B9-81D9-0BB455A36568}|ValueAbbreviator.vcxproj|solutionrelative:Abbreviator.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{2F670015-4451-45B9-81D9-0BB455A36568}|ValueAbbreviator.vcxproj|W:\\C\u002B\u002B Projects\\ValueAbbreviator\\ValueAbbreviator.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{2F670015-4451-45B9-81D9-0BB455A36568}|ValueAbbreviator.vcxproj|solutionrelative:ValueAbbreviator.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{2F670015-4451-45B9-81D9-0BB455A36568}|ValueAbbreviator.vcxproj|W:\\C\u002B\u002B Projects\\ValueAbbreviator\\Abbreviator.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{2F670015-4451-45B9-81D9-0BB455A36568}|ValueAbbreviator.vcxproj|solutionrelative:Abbreviator.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2F670015-4451-45B9-81D9-0BB455A36568}|ValueAbbreviator.vcxproj|W:\\C\u002B\u002B Projects\\ValueAbbreviator\\ValueAbbreviator.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{2F670015-4451-45B9-81D9-0BB455A36568}|ValueAbbreviator.vcxproj|solutionrelative:ValueAbbreviator.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{2F670015-4451-45B9-81D9-0BB455A36568}|ValueAbbreviator.vcxproj|W:\\C\u002B\u002B Projects\\ValueAbbreviator\\E_UI_Phases.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{2F670015-4451-45B9-81D9-0BB455A36568}|ValueAbbreviator.vcxproj|solutionrelative:E_UI_Phases.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,33 +26,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "ValueAbbreviator.cpp",
               "DocumentMoniker": "W:\\C\u002B\u002B Projects\\ValueAbbreviator\\ValueAbbreviator.cpp",
               "RelativeDocumentMoniker": "ValueAbbreviator.cpp",
               "ToolTip": "W:\\C\u002B\u002B Projects\\ValueAbbreviator\\ValueAbbreviator.cpp",
               "RelativeToolTip": "ValueAbbreviator.cpp",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAACcAAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAGsAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-01-21T22:11:14.047Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Abbreviator.h",
               "DocumentMoniker": "W:\\C\u002B\u002B Projects\\ValueAbbreviator\\Abbreviator.h",
               "RelativeDocumentMoniker": "Abbreviator.h",
               "ToolTip": "W:\\C\u002B\u002B Projects\\ValueAbbreviator\\Abbreviator.h",
               "RelativeToolTip": "Abbreviator.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAACAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-01-21T22:44:35.14Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "E_UI_Phases.h",
+              "DocumentMoniker": "W:\\C\u002B\u002B Projects\\ValueAbbreviator\\E_UI_Phases.h",
+              "RelativeDocumentMoniker": "E_UI_Phases.h",
+              "ToolTip": "W:\\C\u002B\u002B Projects\\ValueAbbreviator\\E_UI_Phases.h",
+              "RelativeToolTip": "E_UI_Phases.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-01-22T03:04:20.126Z"
             }
           ]
         },
@@ -64,7 +80,7 @@
               "RelativeDocumentMoniker": "Abbreviator.cpp",
               "ToolTip": "W:\\C\u002B\u002B Projects\\ValueAbbreviator\\Abbreviator.cpp",
               "RelativeToolTip": "Abbreviator.cpp",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAAEwAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAABYAAAAAAAAAAAAUwIEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-01-21T22:44:43.344Z",
               "EditorCaption": ""

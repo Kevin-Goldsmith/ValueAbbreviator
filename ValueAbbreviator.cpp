@@ -4,6 +4,7 @@
 #include <iostream>
 #include "Abbreviator.h"
 #include "EValueType.h"
+#include "E_UI_Phases.h"
 
 using namespace std;
 
@@ -26,44 +27,85 @@ int main()
     
     Abbreviator abb;
 
-    int menu;
-    int chosenType;
+    int menu = 1;
+    int phaseIndex = 1;
+    
+    Phases curPhase = Phases::ChooseType;
 
     do
     {
-        ShowMenu();
-        switch (chosenType)
+        switch (curPhase)
         {
-        case 1:
+        case ChooseType:
             
+            ShowMenu();
+
             int T_val;
             T_val = abb.ChooseValueType();
             if (T_val == 0)
             {
-                chosenType = 0;
+                curPhase = Phases::Exit;
                 break;
             }
             else
             {
-                chosenType = 2;
+                curPhase = Phases::EnterAmt;
                 break;
             }
             break;
 
-        case 2:
+        case EnterAmt:
 
+            switch (abb.InputValueToAbbreviate())
+            {
+            case 3:
+                curPhase = Phases::Encore;
+                break;
 
+            case 0:
+                curPhase = Phases::Exit;
+                break;
+            }
             break;
 
-        case 0:
+        case Encore:
+
+            int encoreIndex;
+
+            cout << "\n******************************************\n";
+            cout << "Press 1 if you want to try another number\n";
+            cout << "Press 2 if you want to return to main menu\n";
+            cout << "Press 0 if you want to exit\n";
+            cin >> encoreIndex;
+
+            switch (encoreIndex)
+            {
+            case 1:
+                curPhase = Phases::EnterAmt;
+                break;
+
+            case 2:
+                curPhase = Phases::ChooseType;
+                break;
+
+            case 0:
+                curPhase = Phases::Exit;
+                break;
+
+            default:
+                cout << "Invalid response. Try Again!\n";
+                break;
+            }
+            break;
+
+        case Exit:
+
+            cout << "\nSee you next time :)\n";
             menu = 0;
             break;
         }
 
-    } while (menu != 0);
-
-
-    
+    } while (menu != 0);    
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
