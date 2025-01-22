@@ -2,10 +2,68 @@
 //
 
 #include <iostream>
+#include "Abbreviator.h"
+#include "EValueType.h"
+
+using namespace std;
+
+
+
+void ShowMenu()
+{
+    cout << "\n******************\n";
+    cout << "Value Abbreviator!\n";
+    cout << "******************\n";
+}
+
 
 int main()
 {
-    std::cout << "Hello World!\n";
+    char valToAbbreviate;
+    int number;
+    bool hasChosenType;
+
+    
+    Abbreviator abb;
+
+    int menu;
+    int chosenType;
+
+    do
+    {
+        ShowMenu();
+        switch (chosenType)
+        {
+        case 1:
+            
+            int T_val;
+            T_val = abb.ChooseValueType();
+            if (T_val == 0)
+            {
+                chosenType = 0;
+                break;
+            }
+            else
+            {
+                chosenType = 2;
+                break;
+            }
+            break;
+
+        case 2:
+
+
+            break;
+
+        case 0:
+            menu = 0;
+            break;
+        }
+
+    } while (menu != 0);
+
+
+    
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu

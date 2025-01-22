@@ -127,7 +127,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Abbreviator.cpp" />
     <ClCompile Include="ValueAbbreviator.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Abbreviator.h" />
+    <ClInclude Include="EValueType.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
